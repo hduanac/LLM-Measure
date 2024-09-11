@@ -53,7 +53,7 @@ The earnings call transcript data is publicly available through financial databa
 To get started quickly with replicating the experiments and analyses, follow these steps:
 
 1. **Implement LLM-Measure, with results saved in the `results/` folder**  
-   Applicable to all studies. By default, the script runs the standard version. The following optional parameters introduce variations to the method:
+   Applicable to all studies. By default, the script runs the standard version (`-M True`). The following optional parameters introduce variations to the method:
    - `-D True`: Rephrase the definition.
    - `-I True`: Rephrase the instruction.
    - `-P True`: Use 128 probing samples.
@@ -61,18 +61,18 @@ To get started quickly with replicating the experiments and analyses, follow the
    Example commands with optional parameters:
    - To rephrase the definition:
      ```bash
-     python llm_measure.py -D True
+     python llm_measure.py -M False -D True
      ```
    - To rephrase the instruction:
      ```bash
-     python llm_measure.py -I True
+     python llm_measure.py -M False -I True
      ```
    - To use 128 probing samples:
      ```bash
-     python llm_measure.py -P True
+     python llm_measure.py -M False -P True
      ```
 
-2. **Implement LLM-Prompting to conduct the measurement, with results saved in the `results/` folder**  
+3. **Implement LLM-Prompting to conduct the measurement, with results saved in the `results/` folder**  
    Applicable to all studies. By default, the script runs the standard version. The following optional parameters introduce variations to the method:
    - `-D`: Rephrase the definition.
    - `-I`: Rephrase the instruction.
@@ -80,14 +80,14 @@ To get started quickly with replicating the experiments and analyses, follow the
    Example commands with optional parameters:
    - To rephrase the definition:
      ```bash
-     python llm_prompting.py -D
+     python llm_prompting.py -D True
      ```
    - To rephrase the instruction:
      ```bash
-     python llm_prompting.py -I
+     python llm_prompting.py -I True
      ```
 
-3. **Implement LDA to calculate topic entropy of reviews for measuring information overload, with results saved in the [`./informationOverload/results/`](./informationOverload/results/) folder**  
+4. **Implement LDA to calculate topic entropy of reviews for measuring information overload, with results saved in the [`./informationOverload/results/`](./informationOverload/results/) folder**  
    Specifically for Study 3. Run this script under the [`./informationOverload/`](./informationOverload/) directory:
    ```bash
    python lda.py
