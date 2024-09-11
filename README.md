@@ -4,7 +4,7 @@
 
 This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article currently under anonymous review by *Science*.
 
-## Main Result
+## Main Results
 
 ![Main Result](./figures/main.jpg)
 
