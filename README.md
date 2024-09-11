@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article under anonymous submission to *Science*.
+This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article currently under anonymous review by *Science*.
 
 ## Main Result
 
