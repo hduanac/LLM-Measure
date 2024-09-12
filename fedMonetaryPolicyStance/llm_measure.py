@@ -175,11 +175,11 @@ def measure(all_texts,
     print(f"Loading " + model_name)
     global tokenizer
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/" + model_name, 
-                                              token="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",
+                                              token="",
                                              )
     global model
     model = AutoModelForCausalLM.from_pretrained("meta-llama/" + model_name,
-                                                 token="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",
+                                                 token="",
                                                  device_map="auto",
                                                  torch_dtype=torch.float16)
     model.eval()
