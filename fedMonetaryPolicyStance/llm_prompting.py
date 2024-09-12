@@ -49,8 +49,8 @@ def main():
     df = pd.read_csv('./data/pc_data.csv',index_col=0)
     all_texts = df['sentence'].tolist()
 
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", token="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")
-    model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf", token="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",
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", token="")
+    model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf", token="",
                                                  device_map="auto",
                                                  torch_dtype=torch.float16,
                                                 )
