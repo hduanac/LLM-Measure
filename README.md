@@ -36,7 +36,7 @@ This research is supported by three distinct datasets, each corresponding to a s
   The dataset for this study consists of Federal Open Market Committee (FOMC) press conference minutes, available for analysis in the [`data/`](./fedMonetaryPolicyStance/data/) directory within the [`fedMonetaryPolicyStance/`](./fedMonetaryPolicyStance/) folder.
 
 - **Study 2: Innovation Level Within a Company**  
-  This study uses earnings call transcripts from publicly listed companies, which are available from [Seeking Alpha](https://seekingalpha.com).
+  This study uses earnings call transcripts from publicly listed companies, which are available from Seeking Alpha or databases such as Thomson Reuters StreetEvents.
 
 - **Study 3: Information Overload in Social Media User Comments**  
   This study uses a dataset of consumer reviews sourced from TripAdvisor.com. The data is available in the [`data/`](./informationOverload/data/) folder under [`informationOverload/`](./informationOverload/).
