@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article currently under anonymous review by *Science*.
+This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article currently under anonymous review.
 
 ## Main Results
 
@@ -95,7 +95,7 @@ To get started quickly with replicating the experiments and analyses, follow the
 
 ## License
 
-This repository is currently anonymized for review under *Science* and does not have a public license at this time. A specific license will be applied once the review process is complete. For any inquiries regarding the use of the code and data before this license is applied, please contact the corresponding author.
+This repository is currently anonymized for review and does not have a public license at this time. A specific license will be applied once the review process is complete. For any inquiries regarding the use of the code and data before this license is applied, please contact the corresponding author.
 
 
 
