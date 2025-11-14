@@ -1,4 +1,4 @@
-# LLM-Measure: Generating Valid, Consistent, and Reproducible Text-Based Measures for Social Science Research
+# LLM-Measure: Generating Valid, Consistent, and Reproducible Text-Based Measures for Information Systems Research
 
 ## Introduction
 
