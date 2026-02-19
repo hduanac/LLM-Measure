@@ -89,7 +89,7 @@ def identify_concept_vector(probing_size,
             embedding_2 = output.copy() 
             embeddings_2.append(embedding_2)
         
-        diff_embeddings.append((-1)**trial * np.mean(np.array(embeddings_1),axis=0) - np.mean(np.array(embeddings_2),axis=0))
+        diff_embeddings.append((-1)**trial * (np.mean(np.array(embeddings_1),axis=0) - np.mean(np.array(embeddings_2),axis=0)))
 
     # PCA.   
     scaler = StandardScaler(copy=True, 
