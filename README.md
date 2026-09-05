@@ -93,10 +93,6 @@ To get started quickly with replicating the experiments and analyses, follow the
    python lda.py
    ```
 
-## Prompt Library
-
-[Browse all prompt templates](https://hduanac.github.io/LLM-Measure/prompts.html)
-
 ## License
 
 This repository is currently anonymized for review and does not have a public license at this time. A specific license will be applied once the review process is complete. For any inquiries regarding the use of the code and data before this license is applied, please contact the corresponding author.
