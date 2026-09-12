@@ -4,6 +4,9 @@
 
 This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article currently under anonymous review.
 
+## Supplementary Regression Results
+
+
 ## Main Results
 
 ![Main Result](./figures/main.jpg)
