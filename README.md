@@ -5,7 +5,7 @@
 This repository contains the data, code, and materials required to reproduce the analysis conducted in the research article currently under anonymous review.
 
 ## Supplementary Regression Results
-![Table H1](./figures/Table H1.jpg)
+![Table H1](./figures/Table_H1.jpg)
 
 ## Main Results
 
