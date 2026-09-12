@@ -6,6 +6,11 @@ This repository contains the data, code, and materials required to reproduce the
 
 ## Supplementary Regression Results
 ![Table H1](./figures/Table_H1.jpg)
+![Table H2](./figures/Table_H2.jpg)
+![Table H3](./figures/Table_H3.jpg)
+![Table H4](./figures/Table_H4.jpg)
+![Table H5](./figures/Table_H5.jpg)
+![Table H6](./figures/Table_H6.jpg)
 
 ## Main Results
 
